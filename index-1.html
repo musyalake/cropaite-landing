@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Cropaite — AI-powered crop disease detection for flower and vegetable farms in East Africa. Detect pests and diseases instantly from a smartphone photo. Pilot testing in Naivasha, Kenya."/>
+  <title>Cropaite — Detect Crop Disease Early. Protect Your Harvest.</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>"/>
+</head>
+<body>
+
+  <!-- TOPBAR -->
+  <div class="topbar">
+    <span>🌱 Pilot Phase 1 — Now Active in Naivasha</span> · Free access for selected farms · <a href="#pilot-program" style="color:var(--gold);text-decoration:underline;font-weight:700;">Apply Now →</a>
+  </div>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="nav-logo-leaf">🌿</div>
+        Cropaite
+      </a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pilot-program">Pilot Program</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#pilot-program" class="nav-cta">Request Pilot Access</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-pilot-badge">Currently in pilot testing with selected farms in Naivasha</div>
+      <h1>Detect Crop Diseases Early.<br>Reduce Losses <em>Before They Spread.</em></h1>
+      <p class="hero-sub">
+        Cropaite is an AI-powered scouting tool for flower and vegetable farms.
+        Capture a crop image and receive instant diagnosis, severity, and treatment guidance in seconds.
+      </p>
+      <div class="hero-actions">
+        <a href="#pilot-program" class="btn btn-primary">
+          🌱 Request Pilot Access
+        </a>
+        <a href="#how-it-works" class="btn btn-outline">
+          ▶ See How It Works
+        </a>
+      </div>
+      <p class="hero-secondary-cta">
+        Already have access? <a href="#download" style="color:var(--gold-lt);text-decoration:underline;">Download the app →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <div class="stats-row">
+    <div class="stat-item reveal">
+      <span class="stat-num">~3s</span>
+      <div class="stat-label">Average diagnosis time</div>
+    </div>
+    <div class="stat-item reveal">
+      <span class="stat-num">Free</span>
+      <div class="stat-label">During pilot phase</div>
+    </div>
+    <div class="stat-item reveal">
+      <span class="stat-num">Naivasha</span>
+      <div class="stat-label">Pilot farms — Nakuru County</div>
+    </div>
+    <div class="stat-item reveal">
+      <span class="stat-num">East Africa</span>
+      <div class="stat-label">Built for local conditions</div>
+    </div>
+  </div>
+
+  <!-- FOUNDER CREDIBILITY -->
+  <section class="section section-founder">
+    <div class="section-inner">
+      <div class="founder-banner reveal">
+        <div class="founder-icon">👨‍🌾</div>
+        <div class="founder-text">
+          <p class="founder-label">Built Locally, For Local Farms</p>
+          <p>Cropaite is built by a local founder working directly with farms in Naivasha to solve real crop challenges — not a distant tech company guessing at your problems. We are currently testing with farms in Naivasha and Nakuru and refining the tool based on real field feedback.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PILOT STATUS -->
+  <section class="section section-alt" id="pilot-status">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-label">Honest Status Update</span>
+        <h2 class="section-title">What's live, what's coming</h2>
+        <p class="section-desc">We build in the open. Here is exactly where Cropaite stands today.</p>
+      </div>
+      <div class="pilot-banner reveal">
+        <div class="pilot-banner-icon">🔬</div>
+        <div>
+          <h3>Phase 1 Pilot — Active in Naivasha</h3>
+          <p>
+            The core AI engine, disease detection, treatment guidance, and weather integration are live and running.
+            We're actively improving the model with every scan from pilot farms.
+          </p>
+          <div class="feature-status" style="margin-top:16px;">
+            <span class="tag tag-live">✓ AI Disease Detection — Live</span>
+            <span class="tag tag-live">✓ Treatment Guidance — Live</span>
+            <span class="tag tag-live">✓ Weather Integration — Live</span>
+            <span class="tag tag-live">✓ Scan History — Live</span>
+            <span class="tag tag-building">⚙ Task Management — Building</span>
+            <span class="tag tag-building">⚙ Offline Mode — Building</span>
+            <span class="tag tag-roadmap">◷ IoT Sensors — Roadmap</span>
+            <span class="tag tag-roadmap">◷ Drone Scouting — Roadmap</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section" id="features">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-label">What Cropaite Does</span>
+        <h2 class="section-title">Precision scouting — for the field, not the office</h2>
+        <p class="section-desc">Built for East African flower and vegetable farms. No agronomist on call required.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card reveal">
+          <span class="card-icon">🔬</span>
+          <h3>Instant Disease Detection</h3>
+          <p>Photograph any affected plant and instantly identify the disease or pest — with severity level — in seconds.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card-icon">💊</span>
+          <h3>Actionable Treatment Guidance</h3>
+          <p>Get specific chemical and organic treatment options with dosages — tailored to your crop and region.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card-icon">🌦️</span>
+          <h3>Local Weather Integration</h3>
+          <p>Real-time farm weather helps you correlate conditions with disease risk and plan spray programmes smarter.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card-icon">📋</span>
+          <h3>Farm Health Records</h3>
+          <p>Every diagnosis is logged automatically — build a reliable disease history across your fields over time.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card-icon">🗺️</span>
+          <h3>Multi-Field Dashboard</h3>
+          <p>Manage all your fields from one place. Assign crops, monitor disease patterns, and track activity farm-wide.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card-icon">🤖</span>
+          <h3>AI Chat Assistant</h3>
+          <p>Ask any crop question in plain language — get advice on prevention, disease cycles, and seasonal care.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section section-alt" id="how-it-works">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-label">Simple by Design</span>
+        <h2 class="section-title">From photo to action in four steps</h2>
+        <p class="section-desc">Designed for scouting teams in the field — no training required to get a diagnosis.</p>
+      </div>
+      <div class="steps-row reveal">
+        <div class="step-item">
+          <span class="step-num">01</span>
+          <span class="step-icon">📸</span>
+          <h3>Photograph the Plant</h3>
+          <p>Open the app, tap Scan, and photograph the affected leaf, stem, or flower during your routine walk.</p>
+        </div>
+        <div class="step-item">
+          <span class="step-num">02</span>
+          <span class="step-icon">🤖</span>
+          <h3>AI Analyses Instantly</h3>
+          <p>The AI identifies the disease or pest, confidence level, and severity — in under 5 seconds.</p>
+        </div>
+        <div class="step-item">
+          <span class="step-num">03</span>
+          <span class="step-icon">💊</span>
+          <h3>Receive Guidance</h3>
+          <p>Get specific treatment options logged automatically to that field's health record.</p>
+        </div>
+        <div class="step-item">
+          <span class="step-num">04</span>
+          <span class="step-icon">📊</span>
+          <h3>Track &amp; Report</h3>
+          <p>Review scan history, monitor disease patterns, and share findings with your agronomy team.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE METRICS -->
+  <section class="section section-metrics">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-label">Why It Matters</span>
+        <h2 class="section-title">What early detection means for your farm</h2>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric-card reveal">
+          <span class="metric-icon">⚡</span>
+          <h3>Faster Detection</h3>
+          <p>Catch disease days earlier than visual-only scouting — before it spreads to neighbouring rows.</p>
+        </div>
+        <div class="metric-card reveal">
+          <span class="metric-icon">💰</span>
+          <h3>Lower Chemical Costs</h3>
+          <p>Targeted treatment means less guesswork and fewer blanket spray applications across your farm.</p>
+        </div>
+        <div class="metric-card reveal">
+          <span class="metric-icon">⏱️</span>
+          <h3>Reduced Scouting Time</h3>
+          <p>Your scouts spend less time identifying and more time acting — with a permanent record of every finding.</p>
+        </div>
+        <div class="metric-card reveal">
+          <span class="metric-icon">🛡️</span>
+          <h3>Early Intervention</h3>
+          <p>Act before disease reaches critical mass — protecting yield quality and export-grade standards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO IT'S FOR -->
+  <section class="section section-alt">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-label">Built For</span>
+        <h2 class="section-title">Who benefits from Cropaite</h2>
+      </div>
+      <div class="card-grid">
+        <div class="card reveal">
+          <span class="card-icon">🌸</span>
+          <h3>Flower Farms</h3>
+          <p>Export-grade production demands zero tolerance for disease. Catch botrytis, downy mildew, and thrips earlier than visual scouting alone allows.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card-icon">🥦</span>
+          <h3>Vegetable &amp; Horticulture</h3>
+          <p>From French beans to capsicum — rapid identification of bacterial and fungal disease means faster response and lower chemical spend.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card-icon">👷</span>
+          <h3>Farm Managers &amp; Agronomists</h3>
+          <p>Accurate, timestamped disease records in your team's hands — without spreadsheets, radio calls, or guesswork during scouting rounds.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PILOT PROGRAM CTA -->
+  <section class="section section-pilot-program" id="pilot-program">
+    <div class="section-inner">
+      <div class="pilot-program-box reveal">
+        <div class="pilot-program-header">
+          <span class="section-label" style="color:var(--gold);">Limited Spots Available</span>
+          <h2>Join the Cropaite Pilot Program</h2>
+          <p>We are currently selecting farms in Naivasha and Nakuru County for Phase 1. If your farm is interested, get in touch — participation is completely free.</p>
+        </div>
+        <div class="pilot-two-col">
+          <div class="pilot-col">
+            <h4>What You Get</h4>
+            <ul class="pilot-list">
+              <li>✅ Free access to the full Cropaite app during the pilot</li>
+              <li>✅ Direct support from the Cropaite team</li>
+              <li>✅ Early disease detection on your crops</li>
+              <li>✅ Farm health records built over 4–6 weeks</li>
+              <li>✅ Your feedback shapes the product directly</li>
+            </ul>
+          </div>
+          <div class="pilot-col">
+            <h4>What We Ask</h4>
+            <ul class="pilot-list">
+              <li>📲 Regular app usage during scouting rounds</li>
+              <li>💬 Honest feedback on what works and what doesn't</li>
+              <li>⏱️ 4–6 week participation window</li>
+              <li>🌱 Any crop type — flowers, vegetables, or mixed</li>
+            </ul>
+          </div>
+        </div>
+        <div class="pilot-cta-row">
+          <a href="contact.html" class="btn btn-gold">
+            🌱 Request Pilot Access
+          </a>
+          <a href="contact.html" class="btn btn-outline-dark">
+            📅 Schedule a Demo
+          </a>
+        </div>
+        <p class="pilot-note">Reach us directly: <a href="mailto:hello@cropaite.com">hello@cropaite.com</a> · <a href="tel:+254741473833">+254 741 473 833</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD (for existing pilot users) -->
+  <section class="section section-alt" id="download">
+    <div class="section-inner">
+      <div class="cta-box reveal">
+        <div class="cta-badge">For Pilot Participants</div>
+        <h2>Download the Cropaite App</h2>
+        <p>Android 8.0 or higher · Safe and tested for pilot users · APK direct install</p>
+        <a href="cropaite.apk" class="btn btn-primary" id="downloadBtn" download>
+          ⬇ &nbsp;Download APK
+        </a>
+        <div id="versionInfo" style="margin-top:24px; font-size:0.82rem; color:rgba(255,255,255,0.5); position:relative; z-index:1;"></div>
+        <p class="download-instructions">
+          After downloading: <strong>Settings → Security → Allow installation from unknown sources → Install the APK</strong>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo" style="color:white; margin-bottom:16px;">
+          <div class="nav-logo-leaf">🌿</div>
+          Cropaite
+        </div>
+        <p>AI-powered crop disease detection built for East African farms.</p>
+        <p style="margin-top:8px;">Naivasha, Nakuru County, Kenya.</p>
+        <p style="margin-top:16px; font-size:0.78rem; color:rgba(255,255,255,0.35);">© 2026 Cropaite Technologies. All rights reserved.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pilot-status">Pilot Status</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#download">Download App</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="contact.html">Get in Touch</a></li>
+          <li><a href="mailto:hello@cropaite.com">hello@cropaite.com</a></li>
+          <li><a href="mailto:privacy@cropaite.com">privacy@cropaite.com</a></li>
+          <li><a href="tel:+254741473833">+254 741 473 833</a></li>
+          <li style="margin-top:8px; font-size:0.8rem; color:rgba(255,255,255,0.35);">Naivasha, Nakuru County, Kenya</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">Cropaite Technologies · Naivasha, Kenya · Governed by Kenyan Law</div>
+      <div class="footer-legal">
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- UPDATE MODAL -->
+  <div id="updateModal" style="
+    display:none; position:fixed; inset:0; z-index:9999;
+    background:rgba(26,74,46,0.8); backdrop-filter:blur(8px);
+    align-items:center; justify-content:center; padding:24px;
+  ">
+    <div style="
+      background:#F8F4EE; border-radius:20px; padding:40px;
+      max-width:420px; width:100%; text-align:center;
+      box-shadow:0 24px 80px rgba(0,0,0,0.3);
+    ">
+      <div style="font-size:2.5rem; margin-bottom:16px;">🚀</div>
+      <h3 style="font-family:'Playfair Display',serif; color:#1A4A2E; margin-bottom:10px;">New Version Available</h3>
+      <p id="modalNotes" style="font-size:0.9rem; margin-bottom:8px;"></p>
+      <p id="modalVersion" style="font-size:0.8rem; color:#C8A84B; font-weight:700; margin-bottom:28px;"></p>
+      <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+        <button id="modalDownload" class="btn btn-green">⬇ Download Update</button>
+        <button id="modalDismiss" style="
+          background:transparent; border:1.5px solid #C2B99A;
+          color:#5A7060; font-family:'Lato',sans-serif; font-weight:700;
+          padding:14px 24px; border-radius:10px; cursor:pointer; font-size:0.9rem;
+        ">Later</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ── HAMBURGER ──
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+
+    // ── SCROLL REVEAL ──
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // ── VERSION CHECK & UPDATE MODAL ──
+    async function checkVersion() {
+      try {
+        const res  = await fetch('./version.json?t=' + Date.now());
+        if (!res.ok) return;
+        const data = await res.json();
+        const dlBtn = document.getElementById('downloadBtn');
+        if (dlBtn) dlBtn.href = data.apk_url || 'cropaite.apk';
+        const vInfo = document.getElementById('versionInfo');
+        if (vInfo) vInfo.textContent = 'Version ' + data.version + ' · ' + (data.release_date || '');
+        const seen = localStorage.getItem('cropaite_seen_version');
+        if (seen && seen !== data.version) showUpdateModal(data);
+        else if (!seen) localStorage.setItem('cropaite_seen_version', data.version);
+      } catch(e) { /* silent fail */ }
+    }
+
+    function showUpdateModal(data) {
+      const modal = document.getElementById('updateModal');
+      modal.style.display = 'flex';
+      document.getElementById('modalNotes').textContent   = data.release_notes || 'A new version is available.';
+      document.getElementById('modalVersion').textContent = 'Version ' + data.version + ' · ' + (data.release_date || '');
+      document.getElementById('modalDownload').onclick = () => {
+        localStorage.setItem('cropaite_seen_version', data.version);
+        window.location.href = data.apk_url || 'cropaite.apk';
+        modal.style.display = 'none';
+      };
+      document.getElementById('modalDismiss').onclick = () => {
+        localStorage.setItem('cropaite_seen_version', data.version);
+        modal.style.display = 'none';
+      };
+    }
+
+    checkVersion();
+  </script>
+</body>
+</html>
