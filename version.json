@@ -1,7 +1,7 @@
 {
   "version": "1.0.0.4",
   "release_date": "April 2026",
-  "apk_url": "https://github.com/musyalake/cropaite-landing/releases/tag/v1.0.0.4",
+  "apk_url": "https://pub-86bc99b6d141428aba7b6361d8ce5cc2.r2.dev/app-arm64-v8a-release.apk",
   "release_notes": "Cropaite Phase 1 Pilot — AI crop disease detection, weather integration, scan history, and farm management. Free for all pilot participants.",
   "force_update": false
 }
