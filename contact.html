@@ -277,6 +277,8 @@
       const firstName = document.getElementById('firstName').value.trim();
       const lastName  = document.getElementById('lastName').value.trim();
       const email     = document.getElementById('email').value.trim();
+      const phone     = document.getElementById('phone').value.trim();
+      const farmName  = document.getElementById('farmName').value.trim();
       const subject   = document.getElementById('subject').value;
       const message   = document.getElementById('message').value.trim();
 
@@ -288,20 +290,18 @@
         alert('Please enter a valid email address.');
         return;
       }
-
       // Option A: Open mail client (works without a backend)
       // Send via Formspree
-const formData = {
-  firstName, lastName, email, phone, farmName, subject, message
-};
-
-fetch('https://formspree.io/f/mlgzwrvz', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify(formData)
-})
-.then(response => {
-  if (response.ok) {
+    const formData = {
+    firstName, lastName, email, phone, farmName, subject, message, 
+  };
+      fetch('https://formspree.io/f/mlgzwrvz', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+     body: JSON.stringify(formData)
+ })
+  .then(response => {
+   if (response.ok) {
     document.getElementById('formSuccess').style.display = 'block';
     ['firstName','lastName','email','phone','farmName','message'].forEach(id => {
       document.getElementById(id).value = '';
